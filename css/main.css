@@ -5,22 +5,35 @@
 	padding: 0;
 }
 
+html {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+p, h3 {
+	max-width: 100%;
+}
+
 body {
 	background-color: hsl(0, 31%, 96%);
 	font-family: sans-serif;
 	color: hsla(0, 6%, 38%, 0.93);
+	line-height: 1.5em;
 }
 
 img {
 	max-width: 100%;
 	max-height: 100%;
+	margin-top: 45px;
+	margin-left: 12px;
+	border-radius: 12%;
 }
 
 header {
 	background-image: url(../images/monster.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-bottom: 25%;
+	padding-bottom: 15%;
 }
 
 h1 {
@@ -46,13 +59,66 @@ header li {
 
 header button {
 	position: relative;
-	left: 50%;
+	left: 45%;
 	margin-top: 145px;
 	background-color: rgba(46, 204, 113,1.0);
 	padding: 10px 45px;
 	border-radius: 5px;
 	border: 3px solid rgb(140, 114, 114);
+	font-family: sans-serif;
+	color: white;
+	font-weight: 900;
 }
+
+.ingredients, section li {
+	position: relative;
+	left: 45%;
+}
+
+section {
+	padding-bottom: 2%;
+	background: rgba(230, 126, 34,1.5);
+	font-family: monospace;
+	color: white;
+}
+
+section li {
+	padding: 5px 10px;
+	list-style: circle;
+}
+section h3 {
+	font-weight: 700;
+}
+
+aside h3 {
+   font-family: "Times New Roman", Georgia, serif;
+   color: black;
+   font-weight: bold;
+   font-style: italic;
+}
+
+aside p {
+	line-height: 1.5em;
+	color: hsla(2, 1%, 17%, 0.9);
+	font-family: 'Helvetica Neue';
+	font-size: 1.2em;
+}
+
+main {
+
+	background: #2c3e50;
+	padding-bottom: 2%;
+}
+
+main p, h3 {
+	margin-left: 10px;
+	font-family: monospace;
+	color: #ecf0f1;
+}
+
+
+
+
 
 
 
