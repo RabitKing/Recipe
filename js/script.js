@@ -13,10 +13,16 @@ $(document).ready(function(){
    // User can hide the images when they click button
    $("#hide").click(function(){
    	  if ($("img").is (":visible")){
-   	  	 $("img").hide();
+   	  	 $("img").hide("slow");
    	  } else {
-         $("img").show();
+         $("img").show("5000");
    	  }
    });
+//******************************
 
-});
+// User will be able to mark the ingredient once they have bought it.
+// Ingredients go green indicating they have been bought.
+  $(" section li").click(function(){
+  	 $(this).css("color", "green");
+  });
+  });   
