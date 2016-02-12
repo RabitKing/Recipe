@@ -89,7 +89,7 @@ section li {
 	padding: 5px 10px;
 	list-style: circle;
 }
-section h3 {
+section h3, main h3 {
 	font-weight: 700;
 }
 
@@ -130,6 +130,7 @@ footer p {
 	margin-top: 100px;
 	font-size: 20px;
 	color: #ecf0f1;
+	
 }
 
 
@@ -138,6 +139,16 @@ a {
 	text-decoration: none  !important;
 }
 
+.cook { display: none;}
+
+aside button {
+	position: relative;
+	margin-top: 2px;
+	border-radius: 30%;
+	color: white;
+	background: brown;
+	border: 1px solid black;
+}
 
 		
 
