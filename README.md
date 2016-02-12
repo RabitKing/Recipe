@@ -1,6 +1,6 @@
 # Recipe
 A very simple web page with cookie recipe
-The page as link to a video
+The page has link to a video
 Video link not working in firefox. Please use chrome. More investigations needed were firefox is concerned
 They is some interactivity. The user can hide images. 
 Ingredients change to green when the user has bought them.
